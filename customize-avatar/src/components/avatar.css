@@ -4,9 +4,26 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: antiquewhite;
 }
 .card {
   border: 5px solid salmon;
   padding: 5rem;
+}
+
+.rounded {
+  border-radius: 15%;
+}
+.circle {
+  border-radius: 50%;
+}
+
+.all-container {
+  margin-top: 10rem;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background-color: antiquewhite;
 }
